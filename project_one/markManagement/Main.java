@@ -48,7 +48,6 @@ class Main{
 
 	}
 
-
 	public static void terminalInterface(){
 
 		System.out.println("----------------------------------------");
