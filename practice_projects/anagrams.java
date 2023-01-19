@@ -1,3 +1,5 @@
+package practice_projects;
+
 class Anagrams {
     boolean areKAnagrams(String str1, String str2, int k) {
         int string_one = str1.length();

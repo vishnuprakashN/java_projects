@@ -1,3 +1,5 @@
+package practice_projects;
+
 import java.util.ArrayList;
 
 public class Arraylist{
