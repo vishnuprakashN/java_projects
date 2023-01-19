@@ -34,18 +34,25 @@ class Main{
 			}
 			
 			Student student = selector(input,students);
-
-			System.out.println("------------------------------------");
-			System.out.println("|       STUDENTS MARKSmarks        |");
-			System.out.println("------------------------------------");
-			System.out.println("  "+student);
-			System.out.println("------------------------------------");
-			System.out.println("|Enter a key to continue....       |");
-			System.out.println("------------------------------------");
+			
+			mark_printer(student.getName(),student.getAverageMarks());
+			
 			scanner.next();
 
 		}
 
+	}
+
+	public static void mark_printer(String name, int averageMark){
+			System.out.println("------------------------------------");
+			System.out.println("|       STUDENTS MARKSmarks        |");
+			System.out.println("------------------------------------");
+			System.out.println(" Student Name: "+ name);
+			System.out.println(" Student AverageMark: "+ averageMark);
+			System.out.println("------------------------------------");
+			System.out.println("|Enter a key to continue....       |");
+			System.out.println("------------------------------------");
+	
 	}
 
 	public static void terminalInterface(){
